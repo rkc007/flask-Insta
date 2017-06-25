@@ -1,0 +1,11 @@
+<html>
+  <head>
+    <title>Welcome to IstaSpeed</title>
+  </head>
+  <body>
+    <h1>Hi, RKC!</h1>
+    {% for post in posts %}
+    <div><p> {{ post.username }}says: <b>{{ post.userid }}</b></p></div>
+    {% endfor %}
+  </body>
+</html>
